@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.home{
+    background-color: wheat;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    h1{
+        font-size: 2rem;
+    }
+    textarea{
+        height: 20rem;
+        width: 30rem;
+        font-size: 3rem;
+    }
+    button{
+        width: 7rem;
+        height: 3rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border: .2rem solid black;
+        border-radius: 1rem;
+
+        &:hover{
+            background-color: tomato;
+            cursor: pointer;
+        }
+    }
+}
